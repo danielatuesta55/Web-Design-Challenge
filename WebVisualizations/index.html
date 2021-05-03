@@ -12,4 +12,82 @@
   
 
   </head>
+<body>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <a class="navbar-brand text-uppercase" href="index.html">Latitude</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item dropdown active">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="max-temp.html">Max Temperature</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="wind-speed.html">Wind Speed</a>
+                      </div>
+                    </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="comparisons.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="data.html">Data</a>
+                </li>
+              </ul>
+          </div>
+        </nav>
+<section class="container-fluid px-5 py-5">
+<div class="row">
+  <div class="col-sm-12 col-lg-7">
+    <div class="card mb-3">
+        <div class="card-header bg-transparent">
+
+            <h5 class="card-title">Summary: Latitude vs. Max temperature</h5>
+        </div>
+        <div class="card-body text-justify pt-5 px-5">
+            <img class="card-img p-1 float-left w-50 mr-3" src="visualizations/Fig1.png" alt="Lat vs. Max Temp">
+            <br>
+            <p class="card-text">
+                The purpose of this project was to analuze how weather changes as you get closer to the equator. To accomplish this analysis, I first pulled data form the OpenWeatherMapAPI to assemble a dataset of over 500 cities.</p><br>
+            <p class="card-text"> After assembling the dataset, I used Pandas libary Matplotlib to plot various aspects of the weather vs. latitude. Factors I looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source datra adn vizualizations created as part of this analysis, as well as explanations and descriptions of any trends and correlations witnessed. </p>
+
+        </div>
+
+    </div>
+
+  </div>
+
+  <div class="col-sm-12 col-lg-5">
+      <div class="card mb-3">
+          <div class="card-header bg-transparent">
+
+              <h5 class="card-title">Visualizations</h5>
+          </div>
+
+          <div class="card-body container">
+              <div class="row">
+                  <a class="col-md-6 p-3" href="max-temp.html"><img class="card-img" src="visualizations/Fig1.png" alt="Lat vs. Max Temp"></a>
+                  <a class="col-md-6 p-3" href="humidity.html"><img class="card-img " src="visualizations/Fig2.png" alt="Lat vs. Humidity"></a>
+                  <a class="col-md-6 p-3" href="cloudiness.html"><img class="card-img" src="visualizations/Fig3.png" alt="Lat vs. Cloudiness"></a>
+                  <a class="col-md-6 p-3" href="wind-speed.html"> <img class="card-img " src="visualizations/Fig4.png" alt="Lat vs. Wind Speed"></a>
+              </div>
+
+          </div>
+      </div>
+
+  </div>
+</div>
+
+
+</section>
+<footer class="footer">
+    &copy; Copyright Jorge Daniel Atuesta 2021
+</footer>
+    
+</body>
 </html>
