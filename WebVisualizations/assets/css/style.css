@@ -1,0 +1,60 @@
+.navbar a:not(.dropdown-item):not(.navbar-brand) {
+    
+    font-weight: 500;
+}
+
+.navbar .nav-item.active a:not(.dropdown-item) {
+    
+    
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    color: whitesmoke !important;
+    font-family: 'Montserrat';
+    letter-spacing: .3rem;
+    background: rgb(40, 206, 170);
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+    border-top: 2px solid #CFD8DC;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    min-height: 100%;
+    background: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    color: #424242;
+}
+
+.border {
+    border-width: 3px !important;
+    border-color: #AA00FF !important;
+}
+
+h5 {
+    font-size: 2rem !important;
+    font-weight: 600;
+}
+
+h4 {
+    color: #424242;
+}
+
+.card-title{
+    color: rgb(40, 206, 170);;
+}
