@@ -21,7 +21,7 @@ I hope you find my work not only to be complete but to display all the knowledge
 
 * *assets*: You will find my CSS style sheet that I created for my page.
 * *Resources*: You will see a CSV file that I used as well as images for the grpahs.
-* *citydata_to_html: *here you will find my pandas code used to turn the csv into html.
+* *citydata_to_html*: here you will find my pandas code used to turn the csv into html.
 * *cloudiness.html*: the html code for this webpage
 * *comparisons.hmtl:* the html code for this webpage
 * *data.html* : the html code for this webpage
